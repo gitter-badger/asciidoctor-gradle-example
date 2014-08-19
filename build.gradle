@@ -1,26 +1,7 @@
-buildscript {
-  repositories {
-    mavenLocal()
-    jcenter()
-  }
+apply plugin: 'base'
 
-  dependencies {
-    classpath 'org.asciidoctor:gradle-plugin:1.5.0-SNAPSHOT'
-  }
-}
-
-apply plugin: 'org.asciidoctor.gradle.asciidoctor'
-
-asciidoctorj {
-  version = '1.5.0-SNAPSHOT'
-}
-
-asciidoctor {
-  //baseDir = null
-  //sourceDocumentName = file('src/asciidoc/example-manual.adoc')
-  outputDir = file("$buildDir/docs")
-  options = [
-    attributes: 'toc=left source-highlighter=coderay idprefix idseparator=- icons=font imagesdir=./images docinfo1 publish-url=http://google.com'
-  ]
-  logDocuments = true
+allprojects {
+    repositories {
+        jcenter()
+    }
 }
