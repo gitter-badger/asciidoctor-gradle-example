@@ -1,3 +1,4 @@
 .gradle/
 /build/
-/buildSrc/build/
+/core/build/
+/extension/build/
