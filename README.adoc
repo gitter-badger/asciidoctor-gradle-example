@@ -1,5 +1,7 @@
 = Asciidoctor Gradle Plugin: Example Project
 
+image:https://badges.gitter.im/Join%20Chat.svg[link="https://gitter.im/aalmiray/asciidoctor-gradle-example?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"]
+
 An example project that demonstrates the use of the Asciidoctor Gradle Plugin.
 The project also includes an example of an Asciidoctor extension written in _Groovy_.
 
